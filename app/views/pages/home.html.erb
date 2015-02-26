@@ -14,7 +14,7 @@
     <div class="mainMenu">
     	<ul>
         	
-            <li><a href="http://localhost:3000/pages/profiles">PROFILES</a></li>
+            <li><a <%= link_to "PROFILES", :controller => :pages, :action => :profiles  %></a></li>
             <li><a href="http://localhost:3000/posts">BLOG</a></li>
             <li><a href="http://localhost:3000/pages/contact">CONTACT US</a></li>
         </ul>
